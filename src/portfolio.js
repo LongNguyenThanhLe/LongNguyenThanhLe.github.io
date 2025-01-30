@@ -36,10 +36,10 @@ const socialMediaLinks = {
   github: "https://github.com/LongNguyenThanhLe",
   linkedin: "https://www.linkedin.com/in/long-nguyen-thanh-le/",
   gmail: "tlenguye@emich.edu",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  gitlab: "https://gitlab.com/LongNguyenThanhLe",
+  facebook: "https://www.facebook.com/",
+  medium: "https://medium.com/",
+  stackoverflow: "https://stackoverflow.com/users/29304223/long-nguyen-thanh-le",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -126,24 +126,16 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Eastern Michigan University",
+      logo: require("./assets/images/emu1.png"),
+      subHeader: "Bachelor of Science in Computer Science Applied",
+      duration: "August 2022 - April 2026",
+      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Scholarships: Half funded scholarship at Eastern Michigan University.",
+        "3.81 GPA"
       ]
     },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
   ]
 };
 
@@ -174,29 +166,29 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "IT HELP DESK TECHNICIAN",
+      company: "Eastern Michigan University",
+      companylogo: require("./assets/images/emu1.png"),
+      date: "January 2023 – Present",
+      desc: "Provide prompt technical support to university students, faculty, and staff, resolving issues with hardware, software, and network connectivity to ensure optimal system performance and user satisfaction.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Enhanced prompt access to university systems and resources by resolving technical issues for over 200 students, faculty, and staff each month, reducing downtime and boosting productivity for campus users.",
+        "Boosted first-call resolution rates by 30% through effective collaboration with IT professionals to escalate complex issues, resulting in faster problem resolution and enhanced user satisfaction across the university."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "HOUSING ENGAGEMENT SPECIALIST",
+      company: "Police Department",
+      companylogo: require("./assets/images/seeus.png"),
+      date: "January 2023 – May 2023",
+      desc: "Maintained a 95% guest satisfaction rate by ensuring a welcoming check-in process and strict adherence to security protocols."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "SEEUS SAFETY TEAM MEMBER",
+      company: "Police Department",
+      companylogo: require("./assets/images/seeus.png"),
+      date: "September 2022 – May 2023",
+      desc: "Increased campus safety by providing escorts to over 200 individuals, contributing to a 30% improvement in student satisfaction with campus security."
     }
   ]
 };
@@ -212,17 +204,17 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Recent Projects",
+  subtitle: "SOME GITHUB PROJECTS I HAVE WORKED ON",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/weatherapp.png"),
+      projectName: "Weather App",
+      projectDesc: "A weather app that shows the current weather of the user's location and the weather of the next 4 days",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visit Repository",
+          url: "https://github.com/LongNguyenThanhLe/MyWeatherApp2"
         }
         //  you can add extra buttons here.
       ]
@@ -300,7 +292,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -324,7 +316,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +335,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +348,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -372,8 +364,9 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+1 (734) 219-1857",
+  email_address: "tlenguye@emich.edu"
+  
 };
 
 // Twitter Section
