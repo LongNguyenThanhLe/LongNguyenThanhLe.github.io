@@ -39,7 +39,8 @@ const socialMediaLinks = {
   gitlab: "https://gitlab.com/LongNguyenThanhLe",
   facebook: "https://www.facebook.com/",
   medium: "https://medium.com/",
-  stackoverflow: "https://stackoverflow.com/users/29304223/long-nguyen-thanh-le",
+  stackoverflow:
+    "https://stackoverflow.com/users/29304223/long-nguyen-thanh-le",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -135,7 +136,7 @@ const educationInfo = {
         "Scholarships: Half funded scholarship at Eastern Michigan University.",
         "3.81 GPA"
       ]
-    },
+    }
   ]
 };
 
@@ -210,7 +211,8 @@ const bigProjects = {
     {
       image: require("./assets/images/weatherapp.png"),
       projectName: "Weather App",
-      projectDesc: "A weather app that shows the current weather of the user's location and the weather of the next 4 days",
+      projectDesc:
+        "A weather app that shows the current weather of the user's location and the weather of the next 4 days",
       footerLink: [
         {
           name: "Visit Repository",
@@ -366,7 +368,6 @@ const contactInfo = {
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+1 (734) 219-1857",
   email_address: "tlenguye@emich.edu"
-  
 };
 
 // Twitter Section
