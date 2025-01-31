@@ -139,7 +139,7 @@ const educationInfo = {
       logo: require("./assets/images/emu1.png"),
       subHeader: "Bachelor of Science in Computer Science Applied",
       duration: "August 2022 - April 2026",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      desc: "Maintained a 3.81 GPA while working part-time and participating in extracurricular activities.",
       descBullets: [
         "Scholarships: Half funded scholarship at Eastern Michigan University.",
         "Dean's List: 5 semesters in a row."
@@ -236,7 +236,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "http://"
         }
       ]
     }
@@ -254,55 +254,46 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "4WARD Graduation Scholarship",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Half funded scholarship.",
+      image: require("./assets/images/scholar.webp"),
+      imageAlt: "scholar Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
           name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://drive.google.com/file/d/1m6Cj3_gi3zK1W5w51D9uh29f8KVgP5UE/view?usp=sharing"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Dean's List",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "5 semesters in a row.",
+      image: require("./assets/images/emu1.png"),
+      imageAlt: "EMU Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Dean's List",
+          url: "https://www.emich.edu/deans-list/index.php"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Technician Promotion",
+      subtitle: "Provide support, troubleshooting, and training regarding end user software and hardware, and answer network inquiries from the entire university community including students, faculty, and staff.",
+      image: require("./assets/images/emu1.png"),
+      imageAlt: "emu Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Promotion Letter",
+          url: "https://drive.google.com/file/d/12fkK8BLolINR39mJdvhi_qJXQfdGTt90/view?usp=sharing"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
