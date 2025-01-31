@@ -12,16 +12,6 @@ export default function Footer() {
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           {emoji("© 2025 Long Le. ALL RIGHTS RESERVED")}
         </p>
-        <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          Theme by{" "}
-          <a
-            href="https://github.com/saadpasta/developerFolio"
-            target="_blank"
-            rel="noreferrer"
-          >
-            developerFolio
-          </a>
-        </p>
       </div>
     </Fade>
   );
