@@ -217,26 +217,26 @@ const bigProjects = {
   subtitle: "SOME GITHUB PROJECTS I HAVE WORKED ON",
   projects: [
     {
-      image: require("./assets/images/weatherapp.png"),
-      projectName: "Weather App",
+      image: require("./assets/images/drone.jpeg"),
+      projectName: "Drone Competition",
       projectDesc:
-        "A weather app that shows the current weather of the user's location and the weather of the next 4 days",
+        "This is a group project I am currently working on for my database course. The end goal is to create an “obstacle course”, and have users compete to get the lowest time and see if they can reach the leaderboard for the fastest completion.",
       footerLink: [
         {
-          name: "Visit Repository",
-          url: "https://github.com/LongNguyenThanhLe/MyWeatherApp2"
+          name: "Visit Website",
+          url: "https://joshrandall.net/projects/drone/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/emu.png"),
+      projectName: "Engage",
+      projectDesc: "Short video sharing platform for students to share their daily life and thoughts.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://"
+          url: "http://engage.joshrandall.net"
         }
       ]
     }
