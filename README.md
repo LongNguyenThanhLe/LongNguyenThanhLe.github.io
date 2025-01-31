@@ -19,8 +19,6 @@ Just change `src/portfolio.js` to get your personal portfolio. Customize portfol
 - [Deployment](#deployment)
 - [Technologies Used](#technologies-used)
 - [Illustrations](#illustrations)
-- [For the Future](#for-the-future)
-- [Contributors](#project-maintainers)
 
 ## Portfolio Sections
 
