@@ -114,6 +114,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-java"
     },
     {
+      skillName: "php",
+      fontAwesomeClassname: "fab fa-php"
+    },
+    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
