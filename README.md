@@ -1,3 +1,5 @@
+## How to deploy after update new feature:
+
 branch master for dev
 branch gh-pages for deploy
 How to deploy after update new feature:
@@ -40,14 +42,15 @@ Created something awesome for your fork of the portfolio and want to share it? F
 ✔️ Twitter Timeline\
 ✔️ GitHub Profile
 
-
-
 # Install dependencies
+
 npm install
 
 # Start a local dev server
+
 npm start
-```
+
+````
 
 ## Linking Portfolio to GitHub
 
@@ -67,7 +70,7 @@ Note: Configuring environment variables before deploying your portfolio is highl
   - .gitignore
   - package-lock.json
   - package.json
-```
+````
 
 2. Inside the .env file, add key `REACT_APP_GITHUB_TOKEN` and assign your GitHub token like this, also add your username as `GITHUB_USERNAME`
 
@@ -219,5 +222,3 @@ For more information, read [hosting on Netlify](https://create-react-app.dev/doc
 
 - [UnDraw](https://undraw.co/illustrations)
 - [Lottie by Oblikweare](https://lottiefiles.com/oblikweare)
-
-
