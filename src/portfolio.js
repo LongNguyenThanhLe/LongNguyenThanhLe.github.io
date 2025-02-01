@@ -38,7 +38,8 @@ const socialMediaLinks = {
   gmail: "tlenguye@emich.edu",
   gitlab: "https://gitlab.com/LongNguyenThanhLe",
   facebook: "https://www.facebook.com/",
-  instagram: "https://www.instagram.com/jackson.le_?igsh=ZHZmbGN3c2w0YXN1&utm_source=qr",
+  instagram:
+    "https://www.instagram.com/jackson.le_?igsh=ZHZmbGN3c2w0YXN1&utm_source=qr",
   stackoverflow:
     "https://stackoverflow.com/users/29304223/long-nguyen-thanh-le",
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -52,13 +53,9 @@ const skillsSection = {
   title: "What I do",
   subTitle: "PASSIONATE DEVELOPER EXPLORING TECH AND BUILDING COOL STUFF",
   skills: [
-    emoji(
-      "⚡ Creating interactive and user-friendly front-end experiences"
-    ),
+    emoji("⚡ Creating interactive and user-friendly front-end experiences"),
     emoji("⚡ Building dynamic web apps with modern frameworks and tools"),
-    emoji(
-      "⚡ Integrating third-party services like Firebase, AWS, and more"
-    )
+    emoji("⚡ Integrating third-party services like Firebase, AWS, and more")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -232,7 +229,8 @@ const bigProjects = {
     {
       image: require("./assets/images/emu.png"),
       projectName: "Engage",
-      projectDesc: "Short video sharing platform for students to share their daily life and thoughts.",
+      projectDesc:
+        "Short video sharing platform for students to share their daily life and thoughts.",
       footerLink: [
         {
           name: "Visit Website",
@@ -255,8 +253,7 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "4WARD Graduation Scholarship",
-      subtitle:
-        "Half funded scholarship.",
+      subtitle: "Half funded scholarship.",
       image: require("./assets/images/scholar.webp"),
       imageAlt: "scholar Logo",
       footerLink: [
@@ -268,8 +265,7 @@ const achievementSection = {
     },
     {
       title: "Dean's List",
-      subtitle:
-        "5 semesters in a row.",
+      subtitle: "5 semesters in a row.",
       image: require("./assets/images/emu1.png"),
       imageAlt: "EMU Logo",
       footerLink: [
@@ -282,7 +278,8 @@ const achievementSection = {
 
     {
       title: "Technician Promotion",
-      subtitle: "Provide support, troubleshooting, and training regarding end user software and hardware, and answer network inquiries from the entire university community including students, faculty, and staff.",
+      subtitle:
+        "Provide support, troubleshooting, and training regarding end user software and hardware, and answer network inquiries from the entire university community including students, faculty, and staff.",
       image: require("./assets/images/emu1.png"),
       imageAlt: "emu Logo",
       footerLink: [
