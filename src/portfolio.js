@@ -135,11 +135,12 @@ const educationInfo = {
       schoolName: "Eastern Michigan University",
       logo: require("./assets/images/emu1.png"),
       subHeader: "Bachelor of Science in Computer Science Applied",
-      duration: "August 2022 - April 2026",
-      desc: "Maintained a 3.81 GPA while working part-time and participating in extracurricular activities.",
+      duration: "August 2022 - April 2026 (Expected)",
+      desc: "Passionate about problem-solving and technology, I’ve maintained a 3.81 GPA while working part-time and actively engaging in campus life.",
       descBullets: [
-        "Scholarships: Half funded scholarship at Eastern Michigan University.",
-        "Dean's List: 5 semesters in a row."
+        "Scholarships: Awarded a half-funded scholarship for academic excellence.",
+        "Dean's List: Recognized for outstanding performance for 5 consecutive semesters.",
+        "Extracurriculars: Active in the International Students Association and tech-related student groups."
       ]
     }
   ]
@@ -184,15 +185,15 @@ const workExperiences = {
     },
     {
       role: "HOUSING ENGAGEMENT SPECIALIST",
-      company: "Police Department",
-      companylogo: require("./assets/images/seeus.png"),
+      company: "EMU Police Department",
+      companylogo: require("./assets/images/housing.jpg"),
       date: "January 2023 – May 2023",
       desc: "Maintained a 95% guest satisfaction rate by ensuring a welcoming check-in process and strict adherence to security protocols."
     },
     {
       role: "SEEUS SAFETY TEAM MEMBER",
-      company: "Police Department",
-      companylogo: require("./assets/images/seeus.png"),
+      company: "EMU Police Department",
+      companylogo: require("./assets/images/images.jpeg"),
       date: "September 2022 – May 2023",
       desc: "Increased campus safety by providing escorts to over 200 individuals, contributing to a 30% improvement in student satisfaction with campus security."
     }
@@ -214,10 +215,10 @@ const bigProjects = {
   subtitle: "SOME GITHUB PROJECTS I HAVE WORKED ON",
   projects: [
     {
-      image: require("./assets/images/drone.jpeg"),
+      image: require("./assets/images/man_drone.jpg"),
       projectName: "Drone Competition",
       projectDesc:
-        "This is a group project I am currently working on for my database course. The end goal is to create an “obstacle course”, and have users compete to get the lowest time and see if they can reach the leaderboard for the fastest completion.",
+        "This is a group project that I worked on with my classmates. We built a friendly-user interface application that can synchronize the data from drone and display the ranking of the drone in the competition.",
       footerLink: [
         {
           name: "Visit Website",
@@ -227,10 +228,10 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/emu.png"),
+      image: require("./assets/images/phoneapp.webp"),
       projectName: "Engage",
       projectDesc:
-        "Short video sharing platform for students to share their daily life and thoughts.",
+        "We are still in process of building a short video sharing platform for students to share their daily life and thoughts.",
       footerLink: [
         {
           name: "Visit Website",
@@ -248,13 +249,14 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Milestones that reflect my dedication, growth, and passion for technology and learning 〽️",
 
   achievementsCards: [
     {
       title: "4WARD Graduation Scholarship",
-      subtitle: "Half funded scholarship.",
-      image: require("./assets/images/scholar.webp"),
+      subtitle:
+        "Awarded a half-funded scholarship for academic excellence and commitment.",
+      image: require("./assets/images/scholar.png"),
       imageAlt: "scholar Logo",
       footerLink: [
         {
@@ -265,7 +267,8 @@ const achievementSection = {
     },
     {
       title: "Dean's List",
-      subtitle: "5 semesters in a row.",
+      subtitle:
+        "Recognized for outstanding academic performance for 5 consecutive semesters.",
       image: require("./assets/images/emu1.png"),
       imageAlt: "EMU Logo",
       footerLink: [
@@ -277,15 +280,15 @@ const achievementSection = {
     },
 
     {
-      title: "Technician Promotion",
+      title: "Promotion to IT Help Desk Technician",
       subtitle:
-        "Provide support, troubleshooting, and training regarding end user software and hardware, and answer network inquiries from the entire university community including students, faculty, and staff.",
-      image: require("./assets/images/emu1.png"),
+        "Earned a promotion for exceptional problem-solving skills and dedication.",
+      image: require("./assets/images/technician.png"),
       imageAlt: "emu Logo",
       footerLink: [
         {
-          name: "Promotion Letter",
-          url: "https://drive.google.com/file/d/12fkK8BLolINR39mJdvhi_qJXQfdGTt90/view?usp=sharing"
+          name: "View Promotion Letter",
+          url: "https://drive.google.com/file/d/1DOBL7mjTmw2PHeRX5ZACR4-zMoV4jdrq/view?usp=sharing"
         }
       ]
     }
