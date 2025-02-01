@@ -50,7 +50,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
+  title: "What I do 💁",
   subTitle: "PASSIONATE DEVELOPER EXPLORING TECH AND BUILDING COOL STUFF",
   skills: [
     emoji("⚡ Creating interactive and user-friendly front-end experiences"),
@@ -211,7 +211,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Recent Projects",
+  title: "Recent Projects 🌋",
   subtitle: "SOME GITHUB PROJECTS I HAVE WORKED ON",
   projects: [
     {
@@ -364,7 +364,7 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Discuss a project or just want to say hi? My Inbox is open for all 📬",
   number: "+1 (734) 219-1857",
   email_address: "tlenguye@emich.edu"
 };
