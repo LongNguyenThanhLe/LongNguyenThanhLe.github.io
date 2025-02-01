@@ -51,7 +51,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do 💻",
-  subTitle: "PASSIONATE DEVELOPER EXPLORING TECH AND BUILDING COOL STUFF",
+  subTitle: "PASSIONATE DEVELOPER EXPLORING TECH AND BUILDING COOL STUFF 🔎",
   skills: [
     emoji("⚡ Creating interactive and user-friendly front-end experiences"),
     emoji("⚡ Building dynamic web apps with modern frameworks and tools"),
@@ -212,7 +212,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Recent Projects 🌋",
-  subtitle: "SOME GITHUB PROJECTS I HAVE WORKED ON",
+  subtitle: "SOME GITHUB PROJECTS I HAVE WORKED ON 💪",
   projects: [
     {
       image: require("./assets/images/2.webp"),
