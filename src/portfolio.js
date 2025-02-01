@@ -215,7 +215,7 @@ const bigProjects = {
   subtitle: "SOME GITHUB PROJECTS I HAVE WORKED ON",
   projects: [
     {
-      image: require("./assets/images/man_drone.jpg"),
+      image: require("./assets/images/2.webp"),
       projectName: "Drone Competition",
       projectDesc:
         "This is a group project that I worked on with my classmates. We built a friendly-user interface application that can synchronize the data from drone and display the ranking of the drone in the competition.",
@@ -228,7 +228,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/phoneapp.webp"),
+      image: require("./assets/images/3.webp"),
       projectName: "Engage",
       projectDesc:
         "We are still in process of building a short video sharing platform for students to share their daily life and thoughts.",
