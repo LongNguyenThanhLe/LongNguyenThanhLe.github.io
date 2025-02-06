@@ -235,7 +235,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "ngage.lol"
+          url: "https://ngage.lol"
         }
       ]
     }
