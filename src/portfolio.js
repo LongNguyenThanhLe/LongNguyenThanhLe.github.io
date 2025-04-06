@@ -184,11 +184,15 @@ const workExperiences = {
       ]
     },
     {
-      role: "HOUSING ENGAGEMENT SPECIALIST",
-      company: "EMU Police Department",
-      companylogo: require("./assets/images/housing.jpg"),
-      date: "January 2023 – May 2023",
-      desc: "Maintained a 95% guest satisfaction rate by ensuring a welcoming check-in process and strict adherence to security protocols."
+      role: "Incoming Resident Advisor",
+      company: "EMU Housing",
+      companylogo: require("./assets/images/housinglife.png"),
+      date: "Start from August 2024",
+      descBullets: [
+        "Selected as a Resident Advisor for the 2024-2025 academic year, responsible for fostering a positive living environment and supporting residents' needs.",
+        "Participated in a rigorous selection process, demonstrating strong leadership and communication skills.",
+        "Awarded free single-occupancy room and meal plan in recognition of leadership, responsibility, and commitment tocampus life."
+      ]
     },
     {
       role: "SEEUS SAFETY TEAM MEMBER",
@@ -236,7 +240,6 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://ngage.lol"
-          code space: "https://github.com/COSC481W-2025Winter/engage"
         }
       ]
     }
