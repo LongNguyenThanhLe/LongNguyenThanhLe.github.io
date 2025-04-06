@@ -257,15 +257,15 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "4WARD Graduation Scholarship",
+      title: "Computer Science Department's Scholarship Award",
       subtitle:
-        "Awarded a half-funded scholarship for academic excellence and commitment.",
+        "One of the three students in the Computer Science Department to receive this award.",
       image: require("./assets/images/scholar.png"),
       imageAlt: "scholar Logo",
       footerLink: [
         {
           name: "Award Letter",
-          url: "https://drive.google.com/file/d/1m6Cj3_gi3zK1W5w51D9uh29f8KVgP5UE/view?usp=sharing"
+          url: "https://drive.google.com/file/d/18BRd0Uzw3fI2fvmPWTmiFLxgv-UA5H_V/view?usp=sharing"
         }
       ]
     },
