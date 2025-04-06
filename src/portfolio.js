@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://docs.google.com/document/d/1WXiRgywf7ZTFiRji1uNjqGkSa-Qep9Dk/edit", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1nuVUcz4ZdfOZrAi4h0OI6iHSEDVFlJWK/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -236,6 +236,7 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://ngage.lol"
+          code space: "https://github.com/COSC481W-2025Winter/engage"
         }
       ]
     }
