@@ -173,6 +173,17 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Incoming Resident Advisor",
+      company: "Housing & Residence Life",
+      companylogo: require("./assets/images/housinglife.png"),
+      date: "Start from August 2024",
+      descBullets: [
+        "Selected as a Resident Advisor for the 2024-2025 academic year, responsible for fostering a positive living environment and supporting residents' needs.",
+        "Participated in a rigorous selection process, demonstrating strong leadership and communication skills.",
+        "Awarded free single-occupancy room and meal plan in recognition of leadership, responsibility, and commitment tocampus life."
+      ]
+    },
+    {
       role: "IT HELP DESK TECHNICIAN",
       company: "Eastern Michigan University",
       companylogo: require("./assets/images/emu1.png"),
@@ -181,17 +192,6 @@ const workExperiences = {
       descBullets: [
         "Enhanced prompt access to university systems and resources by resolving technical issues for over 200 students, faculty, and staff each month, reducing downtime and boosting productivity for campus users.",
         "Boosted first-call resolution rates by 30% through effective collaboration with IT professionals to escalate complex issues, resulting in faster problem resolution and enhanced user satisfaction across the university."
-      ]
-    },
-    {
-      role: "Incoming Resident Advisor",
-      company: "EMU Housing",
-      companylogo: require("./assets/images/housinglife.png"),
-      date: "Start from August 2024",
-      descBullets: [
-        "Selected as a Resident Advisor for the 2024-2025 academic year, responsible for fostering a positive living environment and supporting residents' needs.",
-        "Participated in a rigorous selection process, demonstrating strong leadership and communication skills.",
-        "Awarded free single-occupancy room and meal plan in recognition of leadership, responsibility, and commitment tocampus life."
       ]
     },
     {
@@ -235,7 +235,7 @@ const bigProjects = {
       image: require("./assets/images/3.webp"),
       projectName: "Engage",
       projectDesc:
-        "We are still in process of building a short video sharing platform for students to share their daily life and thoughts.",
+        "Engage (name tentative) is a mobile/web application that aims to host short form video content similar to TikTok, but have more of a focus on privacy and customization. The app will allow users to create and share short videos with each other and the world, and will prioritize privacy by considering algorithms that respect the user's agency and privacy. This aims to give the user more control of what they see, by subscribing to categories/sub-categories. Features that may be included are custom theming, new customization options for profiles, and more as development progresses. The app website will be developed using TypeScript, React, SCSS, npm, git, docker, and mysql.",
       footerLink: [
         {
           name: "Visit Website",
@@ -259,7 +259,7 @@ const achievementSection = {
     {
       title: "Computer Science Department's Scholarship Award",
       subtitle:
-        "One of the three students in the Computer Science Department to receive this award.",
+        "One of the three students in the Computer Science Department to receive this monetary award.",
       image: require("./assets/images/scholar.png"),
       imageAlt: "scholar Logo",
       footerLink: [
