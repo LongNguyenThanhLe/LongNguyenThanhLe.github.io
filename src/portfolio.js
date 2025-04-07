@@ -176,9 +176,9 @@ const workExperiences = {
       role: "Incoming Resident Advisor",
       company: "Housing & Residence Life",
       companylogo: require("./assets/images/housinglife.png"),
-      date: "Start from August 2024",
+      date: "Start from August 2025",
       descBullets: [
-        "Selected as a Resident Advisor for the 2024-2025 academic year, responsible for fostering a positive living environment and supporting residents' needs.",
+        "Selected as a Resident Advisor for the 2025-2026 academic year, responsible for fostering a positive living environment and supporting residents' needs.",
         "Participated in a rigorous selection process, demonstrating strong leadership and communication skills.",
         "Awarded free single-occupancy room and meal plan in recognition of leadership, responsibility, and commitment tocampus life."
       ]
