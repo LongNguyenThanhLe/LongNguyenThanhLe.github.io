@@ -256,9 +256,9 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Computer Science Department's Scholarship Award",
+      title: "Charlie Jones Memorial Scholarship Award",
       subtitle:
-        "One of the three students in the Computer Science Department to receive this monetary award.",
+        "One of only four undergraduates selected for this prestigious departmental award based on academic excellence and contributions to the CS program.",
       image: require("./assets/images/scholar.png"),
       imageAlt: "scholar Logo",
       footerLink: [
@@ -269,15 +269,15 @@ const achievementSection = {
       ]
     },
     {
-      title: "Dean's List",
+      title: "Undergraduate Symposium Silver Anniversary Scholarship",
       subtitle:
-        "Recognized for outstanding academic performance for 5 consecutive semesters.",
+        "Recognized for outstanding research presentation at the Undergraduate Symposium, awarded a scholarship for academic excellence and and co-curricular achievement.",
       image: require("./assets/images/emu1.png"),
       imageAlt: "EMU Logo",
       footerLink: [
         {
-          name: "View Dean's List",
-          url: "https://www.emich.edu/deans-list/index.php"
+          name: "Award Letter",
+          url: "https://drive.google.com/file/d/12W11I7gDCL45EoWiXHkzIw5cZv9wEdYx/view?usp=sharing"
         }
       ]
     },
